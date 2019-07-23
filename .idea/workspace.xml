@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf65df6a-3e27-4209-9535-00a99a662c95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Figure/1500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/1501.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/15010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/15011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/1502.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/1503.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/1504.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/1505.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/1506.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/1507.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/1508.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/1509.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/301.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/3010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/3011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/302.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/303.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/304.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/305.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/306.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/307.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/308.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Figure/309.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KPT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OJDataProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/OJDataProcessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Q.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dhdu_KPT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hdu_EERNN_input.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hdu_KPT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hdu_KPT_input.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hdu_QMatrix.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hdu_RawKnowledge.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hdu_RawSubmitRecord.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hdu_RawSubmitRecord.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/仅供测试/ONLY_FOR_TEST - 副本.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/仅供测试/ONLY_FOR_TEST.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OJDataProcessor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="508" column="39" lean-forward="true" selection-start-line="508" selection-start-column="39" selection-end-line="508" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GenerateKPTData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KPTClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="106" column="32" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="32" />
+              <folding>
+                <element signature="e#17#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/matplotlib/axis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="1707" selection-start-line="1707" selection-end-line="1707" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/numpy/lib/npyio.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="523" selection-start-line="523" selection-end-line="523" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Constant.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>QNametoQId</find>
+      <find>RNametoRId</find>
+      <find>RIdtoRName</find>
+      <find>RId2RPos</find>
+      <find>timedivided</find>
+      <find>userId2userName</find>
+      <find>stri</find>
+      <find>strs</find>
+      <find>fit</find>
+      <find>os</find>
+      <find>timeLC</find>
+      <find>EERNN</find>
+      <find>.png</find>
+      <find>saveFileName</find>
+      <find>test.png</find>
+      <find>save</find>
+      <find>range(12</find>
+      <find>动态规划</find>
+      <find>knowledgeLabel</find>
+      <find>12</find>
+      <find>Knowledge_Problem</find>
+      <find>Figure</find>
+      <find>Generate_KPT_input</find>
+      <find>delete Q_Matrix start</find>
+      <find>Generate</find>
+      <find>Generate KPT_input.csv!</find>
+      <find>print</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>RId2RPos</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/only_for_test/test_save.py" />
+        <option value="$PROJECT_DIR$/only_for_test/test_dict.py" />
+        <option value="$PROJECT_DIR$/Constant.py" />
+        <option value="$PROJECT_DIR$/KPTClass.py" />
+        <option value="$PROJECT_DIR$/GenerateKPTData.py" />
+        <option value="$PROJECT_DIR$/OJDataProcessor.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/KPT-1.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="KPT-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KPT-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KPT-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KPT-1" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KPT-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KPT-1" type="462c0819:PsiDirectoryNode" />
+              <item name="Figure" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyj\Desktop\KPT_fork_hyLiu1994\KPT-1\only_for_test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lyj\Desktop\KPT_fork_hyLiu1994\KPT-1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.KPTClass">
+    <configuration name="KPTClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KPT-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KPTClass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KPT-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/only_for_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/only_for_test/test_dict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_save" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="KPT-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/only_for_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/only_for_test/test_save.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.KPTClass" />
+        <item itemvalue="Python.test_dict" />
+        <item itemvalue="Python.test_save" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf65df6a-3e27-4209-9535-00a99a662c95" name="Default Changelist" comment="" />
+      <created>1563851677403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563851677403</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26312613" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32908458" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32908458" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976826" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/generateFigure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="2179" selection-start-line="2179" selection-end-line="2179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/tensorflow/python/ops/resource_variable_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="683" selection-start-line="683" selection-end-line="683" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/matplotlib/cbook/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="446" selection-start-line="446" selection-end-line="446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/matplotlib/backends/backend_agg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="529" selection-start-line="529" selection-end-line="529" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="715" selection-start-line="715" selection-end-line="715" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure3011.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure300.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure/307.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure/306.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure/305.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure/302.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure/301.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure/300.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/only_for_test/test_save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="2879" column="43" selection-start-line="2879" selection-start-column="43" selection-end-line="2879" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure/304.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/matplotlib/axis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1707" selection-start-line="1707" selection-end-line="1707" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/only_for_test/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/only_for_test/test_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/envs/PMF_BY_LIU/Lib/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="523" selection-start-line="523" selection-end-line="523" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure/NEULC/test.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KPTClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="106" column="32" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="32" />
+          <folding>
+            <element signature="e#17#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateKPTData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OJDataProcessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="508" column="39" lean-forward="true" selection-start-line="508" selection-start-column="39" selection-end-line="508" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
