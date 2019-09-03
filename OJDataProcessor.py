@@ -146,6 +146,8 @@ class OJDataProcessor(object):
         kp = {}
         # 存知识点的名字
         name = None
+        print(self.TmpDir +'Knowledge_Problem/'+ self.DataName + '_RawKnowledge2Problem.txt')
+        print('C:/Users/lyj/Desktop/项目/KPT_fork_hyLiu1994/KPT-1/data/NEULC/Knowledge_Problem/NEULC_RawKnowledge2Problem.txt')
         for row in file:
             line = row.split(':')
             name = line[0]

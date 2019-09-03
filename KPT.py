@@ -1,16 +1,16 @@
 # coding = utf-8
 import tensorflow as tf
-import pandas as pd
-import numpy as np
-import time
 import matplotlib.pyplot as plt
 
 from generateFigure import create_gif
-from OJDataProcessor import *
 from GenerateKPTData import *
 from WriteData import *
 
 tf.enable_eager_execution()
+
+'''
+KPT模型的实现
+'''
 
 class KPT(object):
     #loss函数超参数
@@ -124,8 +124,13 @@ class KPT(object):
         print('read Imatrix completly!')
         return I_matrix
 
-
-
+    '''
+    KPT模型的初始化
+    DataName:数据名称，比如：hdu，NEULC
+    TmpDir：文件路径
+    timeLC：时间限制条件，比如：['2018-11-22 20:45:48','2018-11-29 11:22:08']
+    timedivided:时间窗口的数量
+    '''
     def __init__(self,DataName,TmpDir,timeLC,timedivided):
         self.DataName = DataName
         self.TmpDir = TmpDir
@@ -160,11 +165,15 @@ class KPT(object):
         print("Partial order relationship I_matrix generated!")
         print("End of initialization!")
 
+    '''
+    KPT模型的训练：
+    epochs：循环的次数
+    learnRate：学习率
+    '''
     def fit(self, epochs, learnRate=1e-3):
         print("start fitting")
 
         # 创建loss函数,这里创建了两个：1是涉及到时间因素的部分 2是涉及到Q先验的部分
-
         def loss_function1(Uba, t):
             if (Uba == 0):
                 los = 1 / 2 * tf.reduce_sum(self.I * (self.R[t] - tf.matmul(self.U[t], self.V, transpose_b=True)) ** 2)
@@ -224,6 +233,9 @@ class KPT(object):
             print('Time taken for one epoch {} sec\n'.format(time.time() - start))
         print("fit completly")
 
+    '''
+    KPT模型的保存
+    '''
     def saveModel(self):
         print('start save model')
         path = self.TmpDir + self.DataName + "_" + self.c + "_" + self.d + '_KPT_Model/KPT.npy'
@@ -236,6 +248,9 @@ class KPT(object):
         np.save(path, np.array([U, V, alpha]))
         print("KPT model saved!")
 
+    '''
+    加载保存好的KPT模型
+    '''
     def loadModel(self):
         print("start load latest KPT Model")
         path = self.TmpDir + self.DataName + "_" + self.c + "_" + self.d + '_KPT_Model/KPT.npy'
@@ -245,7 +260,9 @@ class KPT(object):
         self.alpha = tf.Variable(alpha)
         print("load latest KPT Model")
 
-
+    '''
+    KPT模型的预测
+    '''
     def Experimental(self):
         def RMSE(R, _R):
             ans = tf.sqrt(tf.reduce_sum((_R - R) ** 2) / (self.num_user * self.num_item))
@@ -268,7 +285,9 @@ class KPT(object):
             print("time windows Id:", i + 2, "  MAE:", MAE_list[-1])
 
         return RMSE_list, MAE_list
-
+    '''
+    学生知识掌握情况雷达图的绘制
+    '''
     def user_knowledge_plt(self, timeList, userId, saveFileName = "./test.png"):
         #数据
         file = open('./'+self.TmpDir+'Knowledge_Problem/'+self.DataName+'_knowledgeName2knowledgeId.txt', 'r',
@@ -331,7 +350,9 @@ class KPT(object):
         # plt.subplots_adjust(top=1,bottom=1,left=1,right=1,hspace=0,wspace=0);
         plt.tight_layout(pad=0);
         plt.show()
-
+    '''
+    将静态的雷达图做成雷达图动图
+    '''
     def user_KT_plot(self, userId, timeList, gifFileName):
         png_fileList = []
         path_fig="./Figure"+'/'+self.DataName
@@ -346,7 +367,7 @@ class KPT(object):
 
 
 kpt=KPT(DataNam,TmDir,timeLC,timdivid)
-kpt.fit(5,0.01)
+kpt.fit(100,0.01)
 kpt.saveModel()
 kpt.Experimental()
 kpt.user_KT_plot(30,range(timdivid),"test.gif")
