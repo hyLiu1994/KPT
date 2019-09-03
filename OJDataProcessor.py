@@ -6,6 +6,7 @@ import numpy as np
 import datetime
 import time
 from Constant import *
+
 # coding = utf-8
 '''
 需要给定原始的OJ数据集
