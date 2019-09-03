@@ -366,6 +366,7 @@ class KPT(object):
 
 
 
+
 kpt=KPT(DataNam,TmDir,timeLC,timdivid)
 kpt.fit(100,0.01)
 kpt.saveModel()
