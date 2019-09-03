@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from OJDataProcessor import *
 from Constant import *
+
 '''
 整个函数的主要作用：生成KPT_input文.csv文件和Q_Matrixs.csv文件
 FilterSubmitRecordDataOf___()的文件输出是：
