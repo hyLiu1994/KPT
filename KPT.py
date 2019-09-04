@@ -238,7 +238,10 @@ class KPT(object):
     '''
     def saveModel(self):
         print('start save model')
-        path = self.TmpDir + self.DataName + "_" + self.c + "_" + self.d + '_KPT_Model/KPT.npy'
+        path = self.TmpDir + self.DataName + "_" + self.c + "_" + self.d + '_KPT_Model/'
+        if not os.path.isdir(path):
+            os.mkdir(path)
+        path = path + "KPT.npy"
         U = self.U.numpy()
         V = self.V.numpy()
         alpha = self.alpha.numpy()
@@ -254,7 +257,7 @@ class KPT(object):
     def loadModel(self):
         print("start load latest KPT Model")
         path = self.TmpDir + self.DataName + "_" + self.c + "_" + self.d + '_KPT_Model/KPT.npy'
-        [U, V, alpha] = np.load(path)
+        [U, V, alpha] = np.load(path,allow_pickle=True)
         self.U = tf.Variable(U)
         self.V = tf.Variable(V)
         self.alpha = tf.Variable(alpha)
@@ -284,6 +287,9 @@ class KPT(object):
             MAE_list.append(MAE_val.numpy())
             print("time windows Id:", i + 2, "  MAE:", MAE_list[-1])
 
+        x = range(2,self.T+1)
+        self.plot_experimental(x,RMSE_list,"time windows","RMSE")
+        self.plot_experimental(x,MAE_list,"time windows","MAE")
         return RMSE_list, MAE_list
     '''
     学生知识掌握情况雷达图的绘制
@@ -368,8 +374,10 @@ class KPT(object):
 
 
 kpt=KPT(DataNam,TmDir,timeLC,timdivid)
-kpt.fit(100,0.01)
-kpt.saveModel()
+kpt.loadModel()
+#kpt.fit(10,0.01)
+#kpt.saveModel()
 kpt.Experimental()
+kpt.user_knowledge_plt
 kpt.user_KT_plot(30,range(timdivid),"test.gif")
 
