@@ -154,6 +154,16 @@ class OJDataProcessor(object):
             name = line[0]
             line = line[1]
             line = line.split(',')
+            tag=0
+            for i in range(len(line)):
+                # 将之前的数据'POJ1111'，处理成'1111'
+                tmp_line = line[i].split(self.DataName)
+                tmp_str=tmp_line[1].split('\n')[0]
+                if tmp_str in self.problemName2problemId.keys():
+                    tag=1
+                    break
+            if tag==0:
+                continue
             kp[name] = []
             for i in range(len(line)):
                 # 将之前的数据'POJ1111'，处理成'1111'
@@ -172,7 +182,6 @@ class OJDataProcessor(object):
             w = 0
             for i in kp[j]:
                 k += 1
-
                 if i in self.problemName2problemId.keys() and k != len(kp[j]) and w == 0:
                     w = 1
                     file2.write(str(self.problemName2problemId[i]))
